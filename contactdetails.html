@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'main' %}
+<div class="row">
+    <div class="col-md-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2056225412516!2d73.83845847519163!3d18.519607882573805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf3ec1207915%3A0xb73335cd0d52335c!2sItvedant%20Pvt%20Ltd%20Pune!5e0!3m2!1sen!2sin!4v1704696218952!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>  
+<div class="row">                                        <!--end of map-->
+<div class="col-md-6 mt-5">
+<h4><i class="bi bi-building-fill">
+   </h4>shreyas raaga<br>
+    flat no 204 near babar udyan<br>
+    mohanagar chinchwad<br>
+    411019<br></i>
+        <h4><i class="bi bi-telephone-fill text-danger" ></i>&nbsp;&nbsp;8530170082</h4>
+        <h4><i class="bi bi-envelope-at-fill text-info">&nbsp;&nbsp;<a href="siddhi@gmail.com">siddhi@gmail.com</a></i></h4>
+    </div>
+    <div class="col-md-6 mt-5">
+      <h3> <i class="bi bi-question-circle"></i> Question If Any</h3>
+      <hr>
+      <form method="post" action="">
+        <div class="mb-3">
+        <label for="input1" class="form_label">Name:</label>
+        <input type="text" class="form_control" id="input1" name="uname"><br><br>
+        <a href=""><button class='btn btn-success'> Send</button></a>
+        </div>
+      </form>
+    </div>
+</div>
+{% endblock 'main' %}
